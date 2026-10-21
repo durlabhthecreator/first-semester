@@ -1,0 +1,19 @@
+.h2{
+    color: brown;
+    background-color: bisque;
+    height: fit-content;
+    width: fit-content;
+    border: 0.1cm solid brown;
+    border-radius: 0.5cm;
+}
+.div{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEIOdBKbTOF2qTgvadifV2zMr0PrRLAST4oMHCqJhixg&s");
+    height:140px;
+    width: 340.5px;
+    border: 0.01cm solid black ;
+    border-radius: 1cm;
+}
+.img{
+    
+    
+}

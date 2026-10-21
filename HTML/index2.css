@@ -1,0 +1,28 @@
+p{
+    color: darkgreen;
+}
+.color{
+    color:blue;
+}
+.spancolor{
+    background-color: brown;
+}
+body{
+    font-family:cursive
+}
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+*{
+    border: 1px solid black;
+}
+.list1{
+    color: orange;
+}
+.list3{
+    color: black;
+}
+.disc{
+    color:blue;
+}

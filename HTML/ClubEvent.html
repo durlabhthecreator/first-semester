@@ -14,19 +14,25 @@ WHAT TO DO (replaces 4.1 to 4.5)
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Event</title>
+    <link rel="stylesheet" href="clubeve.css">
 </head>
 <body>
     <header>
+        <div class="upperbox">
         <h1>Coding Club</h1>
+        <p>Learn build And Share...</p>
+        </div>
         <h3>Upcoming Events</h3>
     </header>
     <main>
+        <div class="table">
         <table border="1">
            <caption>Club Events</caption>
            <thead>
            <th>Event</th>
            <th>Date</th>
            <th>Venue</th>
+           </thead>
            <tr>
             <td>
                 HTML Workshop
@@ -51,18 +57,19 @@ WHAT TO DO (replaces 4.1 to 4.5)
             </td>
            </tr>
            <tr>
-            <td colspan="3">
+            <td colspan="3" id="lastrow">
                 Total Events: 2
             </td>
            </tr>
            </thead>
         </table>
+        </div>
     </main>
     <section>
         <form action="">
-            <head>
+            <div class="form">
                 <h2>Register</h2>
-            </head>
+            
             <label for="name">
                 Name: <input type="text"> 
             </label>
@@ -84,15 +91,21 @@ WHAT TO DO (replaces 4.1 to 4.5)
             </label>
             <br><br>
             <label for="gender">
-                Age: Male<input type="radio">
-                Female<input type="radio">
+                Gender: Male<input type="radio" id="male" name="gender" value="male">
+                Female<input type="radio" id="female" name="gender" value="female">
             </label>
             <br><br>
             <label for="interest">
-                Interests: Web<input type="radio">
-                DSA <input type="radio">
+                Interests: Web<input type="checkbox">
+                DSA <input type="checkbox">
+            </label>
+            <br><br>
+            <label for="branch">Branch
+                <Select id="branch"</Select><option value="B.tech">B.tech</option>
+                <Select id="branch"</Select><option value="BCA">BCA</option>
             </label>
         </form>
+    </div>
     </section>
 </body>
 </html>

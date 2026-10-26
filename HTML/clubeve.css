@@ -1,0 +1,24 @@
+*{
+        margin: 5px;
+}
+.upperbox{
+    text-align: center;
+    background-color: rgb(8, 206, 206);
+    bord
+}
+h3 {
+    text-size : 2rem;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}   
+#lastrow{
+    text-align: center;
+}
+thead{
+    background-color: blue;
+}
+.form{
+    box-sizing: 2;
+}

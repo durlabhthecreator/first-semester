@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: flex;
+    gap: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    min-height: 19cap;
+}
+.article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 7cap;
+}
+.border{
+    border: 0.01cap solid black;
+    /* align-items: center; */
+    background-color: #eef2ff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    flex: 1;    
+}

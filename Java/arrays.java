@@ -34,6 +34,7 @@
 //   }
 // }
 
+<<<<<<< HEAD
 public class arrays {
     public static void main(String[] args) {
     
@@ -61,16 +62,10 @@ public class arrays {
 //     }
 // }
 
+=======
+>>>>>>> d9b68cd (profileCard)
 public class arrays {
     public static void main(String[] args) {
-      int[] arr = {6, 3, 2, 1, 5};
-      // for(int i = 0; i<n.length; i++){
-      // System.out.print(n[i]+" ");
-      arrayTraversal(arr);
+    
     }
-    public static void arrayTraversal(int[] arr) {
-      for(int i = 0; i<arr.length; i++){
-      System.out.print(arr[i]+" ");
-    }
-  }
 }

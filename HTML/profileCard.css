@@ -6,17 +6,12 @@
     text-align: center;
     background-color: #1E293B;
     color: #f3f1f1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;;
     padding: 25px;
 }
 body{
     background-color: rgb(243, 241, 241);
 }
-/* Background: #F1F5F9
-Navbar: #1E293B
-Card: #FFFFFF
-Circle: #CBD5E1
-Text: #0F172A */
 .D{
     width:100px;
     height: 200px;
@@ -27,6 +22,7 @@ Text: #0F172A */
     justify-content: center;
     align-items: center;
     font-size:xx-large;
+    font-family: 'Space Grotesk', sans-serif;
     text-align: center;
     margin: 0%;
     padding: 0%;
@@ -43,16 +39,18 @@ Text: #0F172A */
     height: 390px;
     background-color: #FFFFFF;
     border: 1.6px solid grey;
-    border-radius: 22%;
+    border-radius: 12%;
 }
 .Durlabh{
     padding-top: 20px;
     font-size: xx-large;
     text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 .para{
-    padding-top: 20px;
+    padding-top: 13px;
     padding: 30px;
     overflow: auto;
     color: #0F172A;
+    font-family: 'Space Grotesk', sans-serif;
 }

@@ -4,10 +4,9 @@
 .upperbox{
     text-align: center;
     background-color: rgb(8, 206, 206);
-    bord
 }
 h3 {
-    text-size : 2rem;
+    font-size : 2rem;
 }
 .table{
     display: flex;
@@ -20,5 +19,8 @@ thead{
     background-color: blue;
 }
 .form{
-    box-sizing: 2;
+    border: 0.03cap solid grey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
